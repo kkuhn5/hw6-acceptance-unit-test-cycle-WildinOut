@@ -3,8 +3,6 @@ Acceptance-Unit Test Cycle
 
 In this assignment you will use a combination of Acceptance and Units tests with the Cucumber and RSpec tools to add a "find movies with same director" feature to RottenPotatoes.
 
-**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
-
 Learning Goals
 --------------
 After you complete this assignment, you should be able to:
@@ -15,15 +13,15 @@ After you complete this assignment, you should be able to:
 
 Introduction and Setup
 ----
-To get the initial RottenPotatoes code please clone this repo to your local machine or C9 workspace, and execute the following command in your top level projects directory, or the root of your C9 workspace:
+To get the initial RottenPotatoes code please clone this repo to your local machine or C9 workspace by executing the following command in your top level projects directory, or the root of your C9 workspace:
 
 ```sh
-$ git clone https://github.com/saasbook/hw-acceptance-unit-test-cycle
+$ git clone https://github.com/saasbook/hw6-acceptance-unit-test-cycle-yourUsername
 ```
 
 Once you have the clone of the repo:
 
-1) Change into the rottenpotatoes directory: `cd hw-acceptance-unit-test-cycle/rottenpotatoes`  
+1) Change into the rottenpotatoes directory: `cd hw-acceptance-unit-test-cycle-yourUsername/rottenpotatoes`  
 2) Run `bundle install --without production` to make sure all gems are properly installed.    
 3) Run `bundle exec rake db:migrate` and `bundle exec rake db:migrate RAILS_ENV=test` to apply database migrations to both development and test databases.    
 4) Run these commands to set up the Cucumber directories (under features/) and RSpec directories (under spec/) if they don't already exist, allowing overwrite of any existing files:
