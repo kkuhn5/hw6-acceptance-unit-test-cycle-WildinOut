@@ -16,7 +16,7 @@ Introduction and Setup
 To get the initial RottenPotatoes code please clone this repo to your local machine or C9 workspace by executing the following command in your top level projects directory, or the root of your C9 workspace:
 
 ```sh
-$ git clone https://github.com/saasbook/hw6-acceptance-unit-test-cycle-yourUsername
+$ git clone https://github.com/itsc3155/hw6-acceptance-unit-test-cycle-yourUsername
 ```
 
 Once you have the clone of the repo:
