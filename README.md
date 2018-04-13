@@ -141,10 +141,10 @@ If you modified any other files, please include them too. If you are on a *nix b
 
 ```sh
 $ cd ..
-$ zip -r hw5.zip rottenpotatoes/app/ rottenpotatoes/config/ rottenpotatoes/db/migrate rottenpotatoes/features/ rottenpotatoes/spec/ rottenpotatoes/Gemfile rottenpotatoes/Gemfile.lock
+$ zip -r hw6.zip rottenpotatoes/app/ rottenpotatoes/config/ rottenpotatoes/db/migrate rottenpotatoes/features/ rottenpotatoes/spec/ rottenpotatoes/Gemfile rottenpotatoes/Gemfile.lock
 ```
 
-This will create the file hw5.zip, which you will submit.
+This will create the file hw6.zip, which you will submit.
 
 IMPORTANT NOTE: Your submission must be zipped inside a rottenpotatoes/ folder so that it looks like so:
 
